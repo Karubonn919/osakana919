@@ -10,6 +10,11 @@
   background: linear-gradient(to top, #02225dff 0%, #02abfcff 100%);
   padding-top: 76px;
 }
+
+html,body{
+  overflow: hidden
+}
+
 .button{
   opacity: 100%;
 }
@@ -272,10 +277,6 @@
 .nami{
   width: 100%;
 }
-  
-html {
- overflow-x: hidden;
-}
 
 .sannso{
   width: 10%;
@@ -332,10 +333,6 @@ html {
   opacity: 100;
   z-index: -1;
 }
-
-body {
-  overflow-x: hidden;
- }
 
 #check01:checked ~ #games{
   display: none;
