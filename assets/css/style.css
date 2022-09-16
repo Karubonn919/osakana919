@@ -329,6 +329,10 @@
   z-index: -1;
 }
 
+body {
+  overflow-x: hidden;
+ }
+
 #check01:checked ~ #games{
   display: none;
 }
