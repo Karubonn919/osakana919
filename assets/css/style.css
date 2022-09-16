@@ -272,6 +272,10 @@
 .nami{
   width: 100%;
 }
+  
+html {
+ overflow-x: hidden;
+}
 
 .sannso{
   width: 10%;
