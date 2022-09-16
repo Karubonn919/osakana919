@@ -88,4 +88,34 @@ $(function(){
       });
     });
   });
+  $(function(){
+    $(window).on('scroll',function (){
+      let triggerClass = $('.test');
+          animateClass = ('is-show');
+   
+      $(triggerClass).each(function(){
+        let scroll       = $(window).scrollTop(),
+            triggerTop   = $('.sc').offset().top,
+            windowHeight = $(window).height();
+        if (scroll > triggerTop - windowHeight/1.8){
+          $(this).addClass("opc3");
+        }
+      });
+    });
+  });
+  $(function(){
+    $(window).on('scroll',function (){
+      let triggerClass = $('.textl');
+          animateClass = ('is-show');
+   
+      $(triggerClass).each(function(){
+        let scroll       = $(window).scrollTop(),
+            triggerTop   = $('.sc').offset().top,
+            windowHeight = $(window).height();
+        if (scroll > triggerTop - windowHeight/1.8){
+          $(this).addClass("opc3");
+        }
+      });
+    });
+  });
   
