@@ -11,7 +11,7 @@
   padding-top: 76px;
 }
 
-html,body{
+.html,body{
   overflow-x: hidden;
 }
 
@@ -19,7 +19,7 @@ html,body{
   opacity: 100%;
 }
 
-.black{
+.black
   z-index: 10000;
   width: 100%;
   height: 100%;
