@@ -11,10 +11,14 @@
   padding-top: 76px;
 }
 
-.html,body{
-  overflow-x: hidden;
+.html{
+  overflow:auto;
 }
 
+.body{
+  overflow: hidden;
+  min-width
+}
 .button{
   opacity: 100%;
 }
