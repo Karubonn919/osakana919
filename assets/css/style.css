@@ -12,12 +12,11 @@
 }
 
 .html{
-  overflow:auto;
+  overflow-x: hidden;
 }
 
 .body{
-  overflow: hidden;
-  min-width
+  overflow-x: hidden;
 }
 .button{
   opacity: 100%;
@@ -46,7 +45,13 @@
 }
 
 @media screen and (min-width:300px) and (max-width:767px) {
+  .html{
+  overflow-x: hidden;
+}
 
+.body{
+  overflow-x: hidden;
+}
   .space{
     margin: 30px;
   }
